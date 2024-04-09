@@ -1,0 +1,65 @@
+{
+    "Agent": {
+        "checkpoints": [
+            {
+                "steps": 12034,
+                "file_path": "results/ppo/Agent/Agent-12034.onnx",
+                "reward": -13.247499141842127,
+                "creation_time": 1712622048.7314088,
+                "auxillary_file_paths": [
+                    "results/ppo/Agent/Agent-12034.pt"
+                ]
+            },
+            {
+                "steps": 23966,
+                "file_path": "results/ppo/Agent/Agent-23966.onnx",
+                "reward": null,
+                "creation_time": 1712622393.5025961,
+                "auxillary_file_paths": [
+                    "results/ppo/Agent/Agent-23966.pt"
+                ]
+            },
+            {
+                "steps": 110864,
+                "file_path": "results/ppo/Agent/Agent-110864.onnx",
+                "reward": -12.911250470206141,
+                "creation_time": 1712622944.362984,
+                "auxillary_file_paths": [
+                    "results/ppo/Agent/Agent-110864.pt"
+                ]
+            },
+            {
+                "steps": 499938,
+                "file_path": "results/ppo/Agent/Agent-499938.onnx",
+                "reward": 72.71312750718789,
+                "creation_time": 1712625514.831831,
+                "auxillary_file_paths": [
+                    "results/ppo/Agent/Agent-499938.pt"
+                ]
+            },
+            {
+                "steps": 563728,
+                "file_path": "results/ppo/Agent/Agent-563728.onnx",
+                "reward": null,
+                "creation_time": 1712625902.57483,
+                "auxillary_file_paths": [
+                    "results/ppo/Agent/Agent-563728.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 563728,
+            "file_path": "results/ppo/Agent.onnx",
+            "reward": null,
+            "creation_time": 1712625902.57483,
+            "auxillary_file_paths": [
+                "results/ppo/Agent/Agent-563728.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.8.0.post3"
+    }
+}
